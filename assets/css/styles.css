@@ -1,0 +1,137 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    height: 170px;
+    width: 100%;
+    background-color: rgba(77, 185, 14, 0.795);
+    position: relative;
+}
+header .logo {
+    height: 100px;
+    width: 80%;
+    margin: 50px auto 0;
+    position: absolute;
+    background-image: url("../img/bou-logo.png");
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+
+}
+header .mujib {
+    height: 100px;
+    width: 150px;
+    overflow: hidden;
+    margin-top: 70px ;
+    float: right;
+}
+
+.form {
+    height: 300px;
+    width: 350px;
+    background-color: rgba(175, 150, 150, 0.603);
+    margin: 70px auto 70px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.form h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 200;
+}
+form {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+form  label {
+    padding: 5px;
+    margin-bottom: 8px;
+
+
+}
+form input {
+    height: 30px;
+    width: 100%;
+    background-color: lightgray;
+    outline: none;
+    border-radius: 5px;
+    border: lightskyblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form input:hover {
+    border: lightskyblue;
+    box-shadow: -2px 2px 3px lightskyblue;
+}
+form a {
+    text-decoration: none;
+    color: rgba(42, 42, 238, 0.884);
+}
+form a:hover {
+    color: navy;
+}
+button {
+    height: 30px;
+    width: 50px;
+    background-color: rgba(28, 28, 250, 0.788);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+footer p {
+    color: white;
+    padding: 15px;
+}
+.footer_right {
+    float: right;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.footer_right a {
+    padding: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: rgba(42, 42, 238, 0.884);
+}
+.footer_right a:hover {
+    color: navy;
+}
+.footer_right img {
+    vertical-align: middle;
+}
+
+
+/* responsive  */
+
+@media screen and (min-width:450px) and (max-width:900px) {
+    .form {
+        width: 90%;
+    }
+    header .logo {
+        display: block;
+        text-align: center;
+    }
+}
